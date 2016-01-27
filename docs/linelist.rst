@@ -194,6 +194,7 @@ Give us the original ism `LineList` with 412 unique transitions.
 
 You may also want to use rest-frame wavelength to define a subset, for
 instance::
+
     ism = LineList('ISM')
     sub_lines = [2796.3543, 2803.5315, 1548.195, 1550.77] * u.AA
     civ_mgii = ism.subset(sub_lines)
